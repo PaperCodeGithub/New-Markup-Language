@@ -1,0 +1,85 @@
+{
+    "tag": "window",
+    "attrs": {
+        "x": "500",
+        "y": "500",
+        "resizeable": "false"
+    },
+    "children": [
+        {
+            "tag": "title",
+            "attrs": {},
+            "children": [
+                "NotePad Copy"
+            ]
+        },
+        {
+            "tag": "body",
+            "attrs": {},
+            "children": [
+                {
+                    "tag": "label",
+                    "attrs": {
+                        "id": "toolbar",
+                        "type": "toolbar",
+                        "x": "matchParent",
+                        "y": "10%"
+                    },
+                    "children": [
+                        {
+                            "tag": "button",
+                            "attrs": {
+                                "x": "wrapContent",
+                                "y": "wrapContent"
+                            },
+                            "children": [
+                                "File"
+                            ]
+                        },
+                        {
+                            "tag": "button",
+                            "attrs": {
+                                "x": "wrapContent",
+                                "y": "wrapContent"
+                            },
+                            "children": [
+                                "Edit"
+                            ]
+                        },
+                        {
+                            "tag": "button",
+                            "attrs": {
+                                "x": "wrapContent",
+                                "y": "wrapContent"
+                            },
+                            "children": [
+                                "View"
+                            ]
+                        },
+                        {
+                            "tag": "button",
+                            "attrs": {
+                                "x": "wrapContent",
+                                "y": "wrapContent"
+                            },
+                            "children": [
+                                "About"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "tag": "label",
+                    "attrs": {
+                        "id": "bodylabel",
+                        "type": "editText",
+                        "x": "matchParent",
+                        "y": "matchParent",
+                        "below_id": "toolbar"
+                    },
+                    "children": []
+                }
+            ]
+        }
+    ]
+}

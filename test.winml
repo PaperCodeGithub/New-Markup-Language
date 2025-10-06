@@ -1,0 +1,13 @@
+<window x="500" y="500" resizeable="false">
+    <title> NotePad Copy </title>
+    <body>
+        <label id="toolbar" type="toolbar" x="matchParent" y="10%">
+            <button x="wrapContent" y="wrapContent"> File </button>
+            <button x="wrapContent" y="wrapContent"> Edit </button>
+            <button x="wrapContent" y="wrapContent"> View </button>
+            <button x="wrapContent" y="wrapContent"> About </button>
+        </label>
+        <label id="bodylabel" type="editText" x="matchParent" y="matchParent" below_id="toolbar">
+        </label>
+    </body>
+</window>
